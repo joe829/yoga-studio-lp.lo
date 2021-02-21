@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ヨガスタジオオープン</title>
+    <link href="style-1.css" type="text/css" rel="stylesheet">
+    <script>
+        $(function(){
+            $("#page-top a").click(function(){
+                $("html,body").animate({scrollTop:0},1000);
+                return falese;
+            });
+        });
+    </script>
+   <script>
+    function fncBMI() {
+      var bmi; //BMI
+      var w; //体重
+      var h; //身長
+      w = eval(document.bmi.bmiWeight.value);
+      h = eval(document.bmi.bmiHeight.value) / 100; //メートルに変換
+      bmi = w / (h * h);
+      document.bmi.bmiAns.value = bmi;
+    }
+  </script>
+
+</head>
+<body>
+    <div class="header">
+        <h1>ヨガスタジオ1月1日OPEN！<span>月額3,800円</span></h1>
+    </div>
+    <div class="contents1">
+        <p>ヨガで心と体のバランスを整えよう!</p>
+    </div>
+   
+
+    <a href="#">お申し込みはこちらから</a>
+
+
+
+   
+    
+    <p class="text-2">事実、30代以上の方が、ヨガを初めています。<br>
+    あなたにあったトレーニングプログラムにより<br>
+    効果的なボディメイキングが可能です！</p>
+    
+
+    <div class="contents2">
+        <div class="contents2-left">
+            <img src="image/クリーム　茶　ヨガスタジオ　instagramストーリー.png">
+            <p>カラダのバランスもアップ</p>
+        </div>
+
+        <div class="contents2-right">
+            <h2 class="contents2-text">体質が変わった会員様の声</h2>
+            <p>肩こりがなくなりました。（30代）</p>
+            <p>最近ぎっくり腰になりません！（40代）</p>
+        </div>
+    </div>
+
+    <div class="bmi-con">
+        <form name="bmi">
+            <p class="bmi-text">BMI値を見てみましょう<br>
+           『BMI＝体重(kg)÷身長(cm)×身長(cm)』</p>
+        
+            体重：<input type="text" name="bmiWeight">kg<br>
+            身長：<input type="text" name="bmiHeight">cm
+            <input type="button" value="BMIを計算" onclick="fncBMI()"><br>
+            結果：<input type="text" name="bmiAns">
+          </form>  
+    </div>      
+
+    <a href="#" class="page-top">TOPに戻る</a>
+
+
+    <iframe src="https:www.youtube.com/embed/N4k2SKL0vvM"></iframe>
+
+
+    <a href="#">お申し込みはこちらから</a>
+
+<footer>
+    <p><small>&copy;2021-yoga-studio.</small></p>
+</footer>    
+    
+
+
+
+</body>
+</html>
+
